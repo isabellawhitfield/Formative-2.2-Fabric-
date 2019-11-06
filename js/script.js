@@ -6,7 +6,7 @@ var fabric = [
         price: 17,
         type: "Cotton Jersey",
         description: "Organic Cotton Jersey is another great 100% cotton fabric that has a natural stretch. Breathable, lightweight and soft on skin, this range finds its uses in children's garments, t-shirts, sleepwear and more. The Bear Meadow Printed Organic Cotton Jersey Fabric measures a 112 cm in width and is sold by the metre. ",
-        image: ""
+        image: "images/whiteBear.jpg"
 
 
 
