@@ -203,7 +203,7 @@ for (var i = 0; i < fabric.length; i++) {
 }
 
 function getHtml(fabric) {
-  return '<div class="card col-12 col-md-6"><img class="card-img-top fabricImage" src="' + fabric.image + '">' +
+  return '<div class="card col"><img class="card-img-top fabricImage" src="' + fabric.image + '">' +
     '<h2 class="card-title text-center">' + fabric.name + '</h2>' +
     '<h3 class="card-title text-center">$' + fabric.price + '</h3>' +
     '<p class="card-text">Fabric Type: ' + fabric.type + '</p>' +
@@ -245,3 +245,83 @@ document.getElementById('highLow').addEventListener('click', function(){
       document.getElementById('results').innerHTML += getHtml(fabric[i]);
     }
 });
+document.getElementById('purple').addEventListener('click', function () {
+    document.getElementById('results').innerHTML = "";
+    for (var i = 0; i < fabric.length; i++) {
+      if (fabric[i].colour === "Purple") {
+        document.getElementById('results').innerHTML += getHtml(fabric[i]);
+      }
+    }
+  }); document.getElementById('red').addEventListener('click', function () {
+    document.getElementById('results').innerHTML = "";
+    for (var i = 0; i < fabric.length; i++) {
+      if (fabric[i].colour === "Red") {
+        document.getElementById('results').innerHTML += getHtml(fabric[i]);
+      }
+    }
+  }); document.getElementById('blue').addEventListener('click', function () {
+    document.getElementById('results').innerHTML = "";
+    for (var i = 0; i < fabric.length; i++) {
+      if (fabric[i].colour === "Blue") {
+        document.getElementById('results').innerHTML += getHtml(fabric[i]);
+      }
+    }
+  }); document.getElementById('yellow').addEventListener('click', function () {
+    document.getElementById('results').innerHTML = "";
+    for (var i = 0; i < fabric.length; i++) {
+      if (fabric[i].colour === "Yellow") {
+        document.getElementById('results').innerHTML += getHtml(fabric[i]);
+      }
+    }
+  }); document.getElementById('green').addEventListener('click', function () {
+    document.getElementById('results').innerHTML = "";
+    for (var i = 0; i < fabric.length; i++) {
+      if (fabric[i].colour === "Green") {
+        document.getElementById('results').innerHTML += getHtml(fabric[i]);
+      }
+    }
+  }); document.getElementById('white').addEventListener('click', function () {
+    document.getElementById('results').innerHTML = "";
+    for (var i = 0; i < fabric.length; i++) {
+      if (fabric[i].colour === "White") {
+        document.getElementById('results').innerHTML += getHtml(fabric[i]);
+      }
+    }
+  }); document.getElementById('pink').addEventListener('click', function () {
+    document.getElementById('results').innerHTML = "";
+    for (var i = 0; i < fabric.length; i++) {
+      if (fabric[i].colour === "Pink") {
+        document.getElementById('results').innerHTML += getHtml(fabric[i]);
+      }
+    }
+  });
+    
+  document.getElementById('cotton').addEventListener('click', function () {
+    document.getElementById('results').innerHTML = "";
+    for (var i = 0; i < fabric.length; i++) {
+      if (fabric[i].type === "Cotton") {
+        document.getElementById('results').innerHTML += getHtml(fabric[i]);
+      }
+    }
+  }); document.getElementById('jerseyCotton').addEventListener('click', function () {
+    document.getElementById('results').innerHTML = "";
+    for (var i = 0; i < fabric.length; i++) {
+      if (fabric[i].type === "Cotton Jersey") {
+        document.getElementById('results').innerHTML += getHtml(fabric[i]);
+      }
+    }
+  }); document.getElementById('cord').addEventListener('click', function () {
+    document.getElementById('results').innerHTML = "";
+    for (var i = 0; i < fabric.length; i++) {
+      if (fabric[i].type === "Cord") {
+        document.getElementById('results').innerHTML += getHtml(fabric[i]);
+      }
+    }
+  }); document.getElementById('canvas').addEventListener('click', function () {
+    document.getElementById('results').innerHTML = "";
+    for (var i = 0; i < fabric.length; i++) {
+      if (fabric[i].type === "Canvas") {
+        document.getElementById('results').innerHTML += getHtml(fabric[i]);
+      }
+    }
+  });
