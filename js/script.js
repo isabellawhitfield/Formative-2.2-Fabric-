@@ -325,3 +325,8 @@ document.getElementById('purple').addEventListener('click', function () {
       }
     }
   });
+
+document.getElementById('results').innerHTML = "";
+for (var i = 0; i < fabric.length; i++) {
+  document.getElementById('results').innerHTML += getHtml(fabric[i]);
+}
