@@ -1,5 +1,29 @@
-*{
+.card {
     margin: 10px;
     padding: 5px;
-    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size: 32px;
+    font-style: italic;
+}
+
+.row--controls {
+    margin-top: 16px;
+}
+
+.row--controls .dropdown {
+    margin-bottom: 8px;
+}
+
+.dropdown button {
+    width: 100%;
+}
+
+.modal {
+    background-color: rgba(0,0,0,0.4)
+}
+
+.modal-title {
+    font-size: 32px;
 }
